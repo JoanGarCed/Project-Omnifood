@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./vendors/css/ionicons.css" />
     <link rel="stylesheet" href="./resources/css/style.css" />
     <link rel="stylesheet" href="./resources/css/queries.css" />
+    <link rel="stylesheet" href="./" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic"
       rel="stylesheet"
@@ -19,12 +20,17 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="sticky">
         <div class="row">
           <img
             src="./resources/img/logo-white.png"
             alt="Omnifood logo"
             class="logo"
+          />
+          <img
+            src="./resources/img/logo.png"
+            alt="Omnifood logo"
+            class="logo-black"
           />
           <ul class="main-nav">
             <li><a href="#">Food delivery</a></li>
@@ -537,5 +543,8 @@
         </p>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./resources/js/script.js"></script>
   </body>
 </html>
