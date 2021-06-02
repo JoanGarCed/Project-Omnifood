@@ -1,5 +1,5 @@
 /*BIG TABLET TO 1200px*/
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .hero-text-box {
     position: absolute;
     width: 100%;
@@ -12,7 +12,7 @@
 }
 
 /*SMALL TABLET TO BIG TABLETS*/
-@media only screen and (max-width: 1023px) {
+@media (max-width: 1023px) {
   body {
     font-size: 18px;
   }
@@ -70,7 +70,7 @@
 }
 
 /*SMALL PHONES TO SMALL TABLETS*/
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   body {
     font-size: 16px;
   }
@@ -175,7 +175,7 @@
 }
 
 /*SMALLEST (less or equal to 480px) Small phones*/
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   section {
     padding: 25px 0;
   }
