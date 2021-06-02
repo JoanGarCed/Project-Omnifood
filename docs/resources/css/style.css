@@ -32,7 +32,6 @@ body {
 /*REUSABLE COMPONENTS*/
 
 .row {
-  max-width: 1300px;
   margin: 0 auto;
 }
 
